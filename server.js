@@ -1,7 +1,7 @@
 // server.js
 
 // set up ======================================================================
-// get all the tools we need
+// get all the tools needed
 let express  = require('express');
 let app      = express();
 let port     = process.env.PORT || 8080;
@@ -29,7 +29,7 @@ mongoose.connect(configDB.url, (err, database) => {
 
 require('./config/passport')(passport); // pass passport for configuration
 
-// set up our express application
+// setting up express application
 app.use(morgan('dev')); // log every request to the console
 app.use(cookieParser()); // read cookies (needed for auth)
 app.use(bodyParser.json()); // get information from html forms

@@ -1,5 +1,6 @@
 // config/database.js
 module.exports = {
-  url: "mongodb+srv://UrjiH:getpassword@cluster0.rh8ci.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-  dbName: "SneakerApp",
+
+    'url' : 'mongodb+srv://devdaph:tPshcQuYG0ltFxR9@cluster0.h8uhl.mongodb.net/sneakerSnap?retryWrites=true&w=majority', 
+    'dbName': 'sneakerSnap'
 };
